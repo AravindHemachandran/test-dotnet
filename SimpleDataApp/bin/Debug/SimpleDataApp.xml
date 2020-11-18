@@ -1,0 +1,104 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SimpleDataApp
+</name>
+</assembly>
+<members>
+<member name="T:SimpleDataApp.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:SimpleDataApp.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:SimpleDataApp.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:SimpleDataApp.FillOrCancel.IsOrderIDValid">
+ <summary>
+ Verifies that OrderID is valid.
+ </summary>
+</member>
+<member name="M:SimpleDataApp.FillOrCancel.btnFindByOrderID_Click(System.Object,System.EventArgs)">
+ <summary>
+ Executes a t-SQL SELECT query on the database to
+ obtain order data for a specified order ID.
+ </summary>
+</member>
+<member name="M:SimpleDataApp.FillOrCancel.btnFillOrder_Click(System.Object,System.EventArgs)">
+ <summary>
+ Fills an order by running the Sales.uspFillOrder stored procedure on the database.
+ </summary>
+</member>
+<member name="M:SimpleDataApp.FillOrCancel.btnCancelOrder_Click(System.Object,System.EventArgs)">
+ <summary>
+ Cancels an order by running the Sales.uspCancelOrder stored procedure on the database.
+ </summary>
+</member>
+<member name="M:SimpleDataApp.FillOrCancel.btnFinishUpdates_Click(System.Object,System.EventArgs)">
+ <summary>
+ Closes the form and returns focus to the Navigation form.
+ </summary>
+</member>
+<member name="M:SimpleDataApp.Navigation.btnGoToAdd_Click(System.Object,System.EventArgs)">
+ <summary>
+ Opens the NewCustomer form as a dialog box, which returns focus to the calling form when it closes.
+ </summary>  
+</member>
+<member name="M:SimpleDataApp.Navigation.btnGoToFillOrCancel_Click(System.Object,System.EventArgs)">
+ <summary>
+ Opens the FillOrCancel form as a dialog box.
+ </summary>
+</member>
+<member name="M:SimpleDataApp.Navigation.btnExit_Click(System.Object,System.EventArgs)">
+ <summary>
+ Closes the application (not just the navigation form).
+ </summary>
+</member>
+<member name="P:SimpleDataApp.NewCustomer.IsCustomerNameValid">
+ <summary>
+ Verifies that the customer name text box is not empty.
+ </summary>
+</member>
+<member name="M:SimpleDataApp.NewCustomer.IsOrderDataValid">
+ <summary>
+ Verifies the order data is valid. 
+ </summary>
+</member>
+<member name="M:SimpleDataApp.NewCustomer.ClearForm">
+ <summary>
+ Clears values from controls.
+ </summary>
+</member>
+<member name="M:SimpleDataApp.NewCustomer.btnCreateAccount_Click(System.Object,System.EventArgs)">
+ <summary>
+ Creates a new account by executing the Sales.uspNewCustomer
+ stored procedure on the database.
+ </summary>
+</member>
+<member name="M:SimpleDataApp.NewCustomer.btnPlaceOrder_Click(System.Object,System.EventArgs)">
+ <summary>
+ Places the order by executing the Sales.uspPlaceNewOrder
+ stored procedure on the database.
+ </summary>
+</member>
+<member name="M:SimpleDataApp.NewCustomer.btnAddAnotherAccount_Click(System.Object,System.EventArgs)">
+ <summary>
+ Resets the form for another new account.
+ </summary>
+</member>
+<member name="M:SimpleDataApp.NewCustomer.btnAddFinish_Click(System.Object,System.EventArgs)">
+ <summary>
+ Closes the NewCustomer form and returns focus to the Navigation form.
+ </summary>
+</member>
+</members>
+</doc>
