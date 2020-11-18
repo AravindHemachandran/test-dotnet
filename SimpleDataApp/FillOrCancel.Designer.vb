@@ -50,7 +50,7 @@ Partial Class FillOrCancel
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(92, 25)
         Me.Label1.TabIndex = 1
-        Me.Label1.Text = "Order ID:"
+        Me.Label1.Text = "Order Id:"
         '
         'btnFindByOrderID
         '
@@ -60,6 +60,7 @@ Partial Class FillOrCancel
         Me.btnFindByOrderID.Size = New System.Drawing.Size(120, 35)
         Me.btnFindByOrderID.TabIndex = 2
         Me.btnFindByOrderID.Text = "Find Order"
+        Me.btnFindByOrderID.BackColor = Color.Black
         Me.btnFindByOrderID.UseVisualStyleBackColor = True
         '
         'dtpFillDate

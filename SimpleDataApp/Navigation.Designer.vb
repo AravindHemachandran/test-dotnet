@@ -35,7 +35,7 @@ Partial Class Navigation
         Me.btnGoToAdd.Name = "btnGoToAdd"
         Me.btnGoToAdd.Size = New System.Drawing.Size(139, 68)
         Me.btnGoToAdd.TabIndex = 0
-        Me.btnGoToAdd.Text = "Add an Account"
+        Me.btnGoToAdd.Text = "Add An Account"
         Me.btnGoToAdd.UseVisualStyleBackColor = True
         '
         'btnGoToFillOrCancel
@@ -45,7 +45,9 @@ Partial Class Navigation
         Me.btnGoToFillOrCancel.Name = "btnGoToFillOrCancel"
         Me.btnGoToFillOrCancel.Size = New System.Drawing.Size(139, 62)
         Me.btnGoToFillOrCancel.TabIndex = 1
-        Me.btnGoToFillOrCancel.Text = "Fill or Cancel an Order"
+        Me.btnGoToFillOrCancel.Text = "Fill Or Cancel An Order"
+        Me.btnGoToFillOrCancel.ForeColor = Color.BurlyWood
+        Me.btnGoToFillOrCancel.BackColor = Color.Black
         Me.btnGoToFillOrCancel.UseVisualStyleBackColor = True
         '
         'btnExit
